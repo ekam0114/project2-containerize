@@ -1,0 +1,10 @@
+# Comparison-only single-stage image for the T02 size experiment.
+FROM node:24
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci
+COPY . .
+RUN npm run build
+RUN npm install -g http-server
+EXPOSE 8080
+CMD ["http-server", "build", "-p", "8080"]
