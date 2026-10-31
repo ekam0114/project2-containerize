@@ -1,0 +1,10 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Local AWS SAM Hello World function",
+  "main": "app.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}
