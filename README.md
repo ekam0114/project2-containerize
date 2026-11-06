@@ -130,15 +130,5 @@ cd local-fn
 sam local invoke HelloWorldFunction
 cd ..
 ```
-
-Do not submit until you have run these checks on your own machine. Update the README if the commands or port you actually use differ.
-
-## Git setup (if this folder is not already a repository)
-
-```bash
-git init
-git add .
-git commit -m "Project 2: containerize and run locally"
-```
-
-Configure your own Git name/email first if Git asks for an author identity. Then create a remote repository and push it, or follow the submission format your instructor specifies.
+sam local invoke HelloWorldFunction
+cd ..
